@@ -6,6 +6,10 @@ header {
   margin: 0 auto;
   padding: 1.5rem 0 1rem 0;
   border-bottom: 1px solid lightgrey;
+  position: fixed;
+  z-index: 99999;
+  background-color: #fff;
+  top: 0;
 }
 .left-inner-header {
   width: 70%;
@@ -99,15 +103,13 @@ nav ul li:nth-last-child(2) {
   .search {
     display: none;
   }
-  .left-inner-header{
+  .left-inner-header {
     width: 30%;
   }
-  nav{
+  nav {
     width: 60%;
   }
   nav ul {
-
     gap: 1rem;
   }
-
 }

@@ -4,6 +4,7 @@
   gap: 1rem;
   width: 90%;
   margin: 1rem auto;
+  margin-top: 100px;
 }
 .card {
   padding: 1rem 2rem;
@@ -49,8 +50,13 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
